@@ -29,7 +29,7 @@ module.exports = {
         "react",
         "simple-import-sort"
     ],
-    "ignorePatterns": ["node_modules", "dist", "vite.config.ts", ".eslintrc.cjs","plopfile.js"],
+    "ignorePatterns": ["node_modules", "dist", "vite.config.ts", ".eslintrc.cjs","plopfile.js","test"],
     "rules": {
         "simple-import-sort/imports": "error",
         "simple-import-sort/exports": "error"

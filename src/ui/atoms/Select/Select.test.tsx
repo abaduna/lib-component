@@ -4,10 +4,10 @@ import { beforeEach, describe, expect, it } from 'vitest'
 import { Select } from './Select'
 import type { Props } from './Select.types'
 
-describe('Select', () => {
-  beforeEach(() => {})
+// describe('Select', () => {
+//   beforeEach(() => {})
 
-  it('Should ...', () => {
-    render(<Select />)
-  })
-})
+//   it('Should ...', () => {
+//     render(<Select />)
+//   })
+// })

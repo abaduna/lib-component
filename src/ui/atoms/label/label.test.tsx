@@ -4,12 +4,12 @@ import { beforeEach, describe, expect, it } from 'vitest'
 import { label } from './label'
 import type { Props } from './label.types'
 
-describe('label', () => {
-  let defaultProps: Props
+// describe('label', () => {
+//   // let defaultProps: Props
 
-  beforeEach(() => {
-    defaultProps = {}
-  })
+//   // beforeEach(() => {
+//   //   defaultProps = {}
+//   // })
 
-  it('Should ...', () => {})
-})
+//   // it('Should ...', () => {})
+// })

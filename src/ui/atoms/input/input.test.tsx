@@ -1,7 +1,8 @@
 import { render, screen } from '@testing-library/react'
+import * as React from 'react'
 import { beforeEach, describe, expect, it } from 'vitest'
 
-import { Input } from './input.styled'
+import { Input } from './input.tsx'
 import type { Props } from './input.types'
 
 describe('input', () => {
@@ -15,7 +16,7 @@ describe('input', () => {
 
   it('Should placeholder', () => {
     render(<Input {...defaultProps} />)
-    const btn = screen.getByRole('textbox', { name: 'place holder' }) // name !== name input
-    expect(btn).toBeDefined()
+    const input = screen.getByPlaceholderText('place holder')
+    expect(input).toBeDefined()
   })
 })
